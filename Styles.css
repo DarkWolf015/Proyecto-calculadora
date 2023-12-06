@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    margin: 50px;
+    background-image: url(./img/matriz.webp);
+    color: aliceblue;
+}
+#Calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 18px;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#resultado {
+    grid-column: span 4;
+    padding: 10px;
+    font-size: 2em;
+    text-align: right;
+}
+
+h1 {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #23e600, 0 0 40px #0ce600, 0 0 50px #00e6a9, 0 0 60px #000000, 0 0 70px #000000;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #21921d, 0 0 40px #0f491c, 0 0 50px #62ff4d, 0 0 60px #000000, 0 0 70px #4dfff9, 0 0 80px rgb(246, 2, 124);
+    }
+  }
+
+  .copyright-wrapper { 
+    background-color: #000000;
+    color: #0f491c;
+    padding: 10px;
+  }

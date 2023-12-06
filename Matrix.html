@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix calculator</title>
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    
+    <div id="Calculator">
+        
+        <input id="resultado" type="text" readonly class="numeros">
+             <button onclick="limpiar()" class="operador">Clear</button>
+             <button onclick="retroceder()" class="operador">←</button>
+            <button onclick="agregar('/')" class="operadores">÷</button>
+            <button onclick="agregar('*')" class="operadores">*</button>
+            <button onclick="agregar('7')" class="numeros">7</button>
+            <button onclick="agregar('8')" class="numeros">8</button>
+            <button onclick="agregar('9')" class="numeros">9</button>
+            <button onclick="agregar('-')" class="operadores">-</button>
+            <button onclick="agregar('4')" class="numeros">4</button>
+            <button onclick="agregar('5')" class="numeros">5</button>
+            <button onclick="agregar('6')" class="numeros">6</button>
+            <button onclick="agregar('+')" class="operadores">+</button>
+            <button onclick="agregar('1')" class="numeros">1</button>
+            <button onclick="agregar('2')" class="numeros">2</button>
+            <button onclick="agregar('3')" class="numeros">3</button>
+            <button onclick="agregar('.')">.</button>
+            <button onclick="agregar('0')" class="numeros">0</button>
+            <button onclick="calcular(' ')" class="igual">=</button>   
+    </div>
+    <script src="calculadora.js"></script>
+
+    <div class="copyright-wrapper">
+        &copy; 2023 DarkWolf015 &#124; All rights reserved &copy;                   
+        </div>
+
+</body>
+</html>
